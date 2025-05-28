@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Playfair Display', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    background: #F6F8FA;
+    overflow:auto;
+}
+
+nav{
+    padding: 10px 35px;
+    display: flex;
+    /* border: 10px solid red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left{ 
+    width: 40%;
+    /* border: 2px solid yellow;    */
+}
+.nav_left img{
+    width: 90px; 
+    border-radius: 50%;
+}
+
+.nav_right{
+    width: 50%;
+    /* border: 2px solid green;     */
+}
+
+
+.nav_right ul{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.nav_right ul li:hover{
+    color: #009BDF;
+}
+
+
+/* Nav Section Completed */
+
+
+/* Hero Section Started */
+
+.hero-section{
+    /* border: 2px solid red ; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* niche wala width mene 40 kiya se 60 */
+.hero-section-left{
+    width: 50%;
+    margin-right: 5%;
+    /* border: 2px solid green; */
+}
+
+.hero-section-left span:first-child{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #758398;
+}
+
+.hero-section-left hr{
+    margin-top: 30px;
+    border: 2px solid #758398;
+    width: 100px;
+    color: #758398;
+}
+
+.hero-section-left span:nth-child(3){
+    margin-top: 50px;
+    font-size: 3.5rem;
+    font-weight:800 ;
+    display: block;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-section-left span:nth-child(4){
+    font-size: 1.8rem;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #758398;
+    font-weight: 700;
+}
+
+.contact-info{
+    margin-top: 50px;
+}
+
+.contact-info i{
+    background: #009BDF;
+    padding: 15px;
+    font-size: 1.0rem;
+    color: #F6F8FA;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.contact-info span{
+    font-size: 1.2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.phone, .email{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero-section-right{
+    width: 30%;
+}
+
+
+
+.hero-section-right img{
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+
+/* Hero Section End */
+
+
+/* About Me Section Started */
+
+
+.about-me{
+    margin-top: 50px;
+    padding: 20px 35px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me >span:first-child{
+    font-size: 1.2rem;
+    color: #009BDF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.about-me >span:nth-child(2){
+    margin-top:  40px;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    line-height: 3.5rem;
+    padding-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.about-me-para{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me-para-left{
+    width: 40%;
+}
+
+.about-me-para-left span{
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #009BDF;
+}
+
+.about-me-para-right{
+    width: 50%;
+}
+
+.about-me-para-right p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.about-me-para-right p:nth-child(2){
+    color: #758398;
+}
+
+.about-me-para-right a{
+    all: unset;
+    color: #009BDF;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+}
+
+
+
+/* What I Do Section */
+
+.i-do{
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    padding: 20px 30px;
+}
+
+
+.i-do >span:first-child{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+
+
+.line2{
+    /* border: 2px solid pink; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.line2 span{
+    width: 50%;
+    font-size: 1.2rem;
+    color: #758398;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    /* border: 2px solid blue; */
+}
+
+
+.line2 i{
+    font-size: 7rem;
+    overflow-y: hidden;
+    color: #009BDF;
+}
+
+
+.service-avalaible{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 27%; */
+    /* border: 2px solid brown; */
+}
+
+
+.service-box{
+    padding: 20px 30px;
+    width: 27%;
+    display: flex;
+
+}
+
+.service-box i{
+    width: 250px;
+    font-size: 2rem;
+    color: #009BDF;
+}
+
+
+.service-box-para{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-box-para span:first-child{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+
+.service-box-para span:nth-child(2){
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #758398;
+}
+
+.dummy-image{
+    height: 800px;
+    background: url(./Hanuman.webp);
+    /* background-size: cover; */
+    background-repeat: round;
+    background-attachment: fixed;
+}
